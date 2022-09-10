@@ -1,0 +1,12 @@
+#include <math.h>
+fabs(-1)  -1的绝对值
+pow(2,4)  2的4次方
+sqrt(9)   9的开方
+
+#include <string.h>
+char a[]="hello";
+char b[]="Hello";
+char str[20];
+strcmp(a,b);#依次比较a和b的ascii码
+strcpy(a,b);#将b的值赋给a
+gets(str)#读如字符串并且赋值给str(已弃用,有内存溢出风险)
